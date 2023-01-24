@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  padding-left: 16px;
+}
+
+.wd-main-div {
+  border: 2px solid rgb(47, 51, 54);
+}
+
+.wd-search-field {
+  color: white;
+  background-color: darkgray;
+  border-radius: 50px;
+  float: left;
+  width: 80%;
+  height: 40px;
+}
+
+.wd-search-settings {
+  padding-top: 15px;
+  padding-right: 12px;
+  float: right;
+  color: rgb(29, 161, 242);
+}
+
+.wd-category-links {
+  padding-top: 30px;
+  float: left;
+  font-size: 15px;
+}
+
+.wd-first-category {
+  color: rgb(29, 161, 242);
+  border-bottom: 3px solid rgb(29, 161, 242);
+  padding: 16px;
+}
+
+.wd-other-category {
+  color: rgb(110, 118, 125);
+  padding: 16px;
+}
+
+.wd-suggested-posts-C-topic {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-suggested-posts-C-number-of-tweets {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  margin-top: -10px;
+}
+
+.wd-suggested-posts-C-title {
+  color: white;
+  font-size: 18px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.wd-suggested-posts-D-time {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: rgb(110, 118, 125);
+}
+
