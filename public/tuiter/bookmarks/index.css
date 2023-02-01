@@ -1,0 +1,123 @@
+.wd-page-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.wd-bookmarked-post {
+  margin-bottom: 12px;
+}
+
+.wd-user-handle {
+  color: lightgrey;
+  padding-bottom: 12px;
+  font-size: 13px;
+  border-bottom: lightgrey 1px solid;
+}
+
+.wd-user-image {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+
+.wd-user-name {
+  color: white;
+  font-size: 15px;
+  display: inline;
+}
+
+.wd-post-user-handle {
+  color: lightgrey;
+  display: inline;
+}
+
+.wd-post-date {
+  color: lightgrey;
+  display: inline;
+}
+
+.wd-post-inner-content {
+  display: block;
+  color: white;
+  font-size: 15px;
+  max-width: 506px;
+  margin-bottom: 12px;
+  margin-right: 16px;
+}
+
+.wd-post-image-block {
+  margin-left: 76px;
+  max-width: 504px;
+  border: lightgrey 1px solid;
+  border-radius: 5%;
+}
+
+.wd-post-image {
+  width: 504px;
+  height: 264px;
+  border-radius: 5%;
+}
+
+.wd-post-image-title {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px;
+  margin: 0;
+}
+
+.wd-post-image-content {
+  color: lightgrey;
+  font-size: 15px;
+  padding: 12px;
+  margin: 0;
+}
+
+.wd-post-buttons {
+  margin-left: 76px;
+  display: flow-root;
+  max-width: 504px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.wd-post-button-icon {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.wd-post-button-number {
+  color: lightgrey;
+  margin-left: 12px;
+}
+
+.wd-post-button-heart-icon {
+  color: red;
+  text-decoration: none;
+}
+
+.wd-post-button-heart-number {
+  color: red;
+  margin-left: 12px;
+}
+
+.wd-post-avatar {
+  display: inline-block;
+}
+
+.wd-post-content {
+  display: inline-block;
+}
+
+.wd-post-grid-col-thirds-page {
+  width: 8%;
+  float: left;
+}
+
+.wd-post-grid-col-two-thirds-page {
+  width: 92%;
+  float: left;
+}

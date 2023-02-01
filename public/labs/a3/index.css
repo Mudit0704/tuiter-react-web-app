@@ -174,21 +174,21 @@ p#id-selector-2 {
   clear: both;
 }
 
-.grid-row {
+.wd-grid-row {
   clear: both;
 }
 
-.grid-col-half-page {
+.wd-grid-col-half-page {
   width: 50%;
   float: left;
 }
 
-.grid-col-third-page {
+.wd-grid-col-third-page {
   width: 33%;
   float: left;
 }
 
-.grid-col-two-thirds-page {
+.wd-grid-col-two-thirds-page {
   width: 67%;
   float: left;
 }

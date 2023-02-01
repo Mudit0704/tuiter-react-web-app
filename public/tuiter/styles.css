@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  border: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-16-left-padding {
+  padding-left: 16px;
+}
+
+.wd-12-top-padding {
+  padding-top: 12px;
+}
+
+.wd-16-left-margin {
+  margin-left: 16px;
+}
+
+.wd-12-top-margin {
+  margin-top: 12px;
+}
+
+.wd-negative-15-top-padding {
+  margin-top: -15px;
+}
+
+.wd-grid-row {
+  clear: both;
+}
+
+.wd-grid-col-half-page {
+  width: 50%;
+  float: left;
+}
+
+.wd-grid-col-third-page {
+  width: 33%;
+  float: left;
+}
+
+.wd-grid-col-two-thirds-page {
+  width: 67%;
+  float: left;
+}
+
+.wd-grid-col-quarter-page {
+  width: 25%;
+  float: left;
+}
+
+.wd-130-top-margin {
+  margin-top: 130px;
+}
+
+.wd-140-top-margin {
+  margin-top: 140px;
+}
