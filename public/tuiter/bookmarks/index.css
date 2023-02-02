@@ -1,5 +1,10 @@
 .wd-bookmarked-title-handle {
   border-bottom: lightgrey 1px solid;
+  display: flow-root;
+}
+
+.wd-bookmarked-options {
+  color: rgb(29, 161, 242);
 }
 
 .wd-page-title {

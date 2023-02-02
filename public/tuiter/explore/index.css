@@ -7,9 +7,9 @@
   background-color: darkgray;
   border-radius: 50px;
   float: left;
-  width: 80%;
+  width: 92%;
   height: 40px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 ::placeholder {
@@ -17,10 +17,11 @@
 }
 
 .wd-search-settings {
-  padding-top: 15px;
+  padding-top: 8px;
   margin-right: 12px;
   float: right;
   color: rgb(29, 161, 242);
+  font-size: 30px;
 }
 
 .wd-category-links {
@@ -28,8 +29,8 @@
   padding-bottom: 18px;
   float: left;
   font-size: 15px;
-  width: 100%;
   border-bottom: rgb(110, 118, 125) 20px solid;
+  width: 100%;
 }
 
 .wd-first-category {
@@ -47,7 +48,8 @@
 
 .wd-suggested-posts-C {
   font-size: 13px;
-  border-top: lightgrey solid 1px;
+  border-top: rgb(47, 51, 54) 1px solid;
+  display: flow-root;
 }
 
 .wd-suggested-posts-C-topic {
@@ -67,7 +69,7 @@
 }
 
 .wd-suggested-posts-D {
-  border-top: lightgrey solid 1px;
+  border-top: rgb(47, 51, 54) 1px solid;
 }
 
 .wd-suggested-posts-D-time {
@@ -92,7 +94,7 @@
 }
 
 .wd-suggested-posts-E {
-  border-top: lightgrey solid 1px;
+  border-top: rgb(47, 51, 54) 1px solid;
 }
 
 .wd-suggested-posts-E-topic {
