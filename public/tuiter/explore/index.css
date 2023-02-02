@@ -36,11 +36,13 @@
   color: rgb(29, 161, 242);
   border-bottom: 3px solid rgb(29, 161, 242);
   padding: 16px;
+  text-decoration: none;
 }
 
 .wd-other-category {
   color: rgb(110, 118, 125);
   padding: 16px;
+  text-decoration: none;
 }
 
 .wd-suggested-posts-C {
