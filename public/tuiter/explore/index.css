@@ -9,11 +9,16 @@
   float: left;
   width: 80%;
   height: 40px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: white;
 }
 
 .wd-search-settings {
   padding-top: 15px;
-  padding-right: 12px;
+  margin-right: 12px;
   float: right;
   color: rgb(29, 161, 242);
 }
@@ -39,16 +44,15 @@
 }
 
 .wd-suggested-posts-C {
+  font-size: 13px;
   border-top: lightgrey solid 1px;
 }
 
 .wd-suggested-posts-C-topic {
-  font-size: 13px;
   color: rgb(110, 118, 125);
 }
 
 .wd-suggested-posts-C-number-of-tweets {
-  font-size: 13px;
   color: rgb(110, 118, 125);
   margin-top: -10px;
 }
@@ -108,8 +112,8 @@
   width: 100px;
   height: 100px;
   float: right;
-  padding-right: 16px;
-  border-radius: 10px;
+  margin-right: 16px;
+  border-radius: 15%;
   margin-top: 20px;
 }
 

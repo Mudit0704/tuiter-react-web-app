@@ -1,3 +1,7 @@
+.wd-bookmarked-title-handle {
+  border-bottom: lightgrey 1px solid;
+}
+
 .wd-page-title {
   color: white;
   font-size: 20px;
@@ -5,41 +9,52 @@
   margin-top: 0;
 }
 
-.wd-bookmarked-post {
-  margin-bottom: 12px;
-}
-
 .wd-user-handle {
   color: lightgrey;
   padding-bottom: 12px;
   font-size: 13px;
-  border-bottom: lightgrey 1px solid;
+  margin-bottom: 0;
 }
 
-.wd-user-image {
+.wd-bookmarked-post {
+  margin-bottom: 12px;
+  display: flow-root;
+}
+
+.wd-bookmarked-post-avatar {
+  margin-top: 12px;
+  max-width: 48px;
+  margin-right: 12px;
+}
+
+.wd-bookmarked-post-content {
+  margin-top: 12px;
+}
+
+.wd-bookmarked-user-image {
   border-radius: 50%;
   height: 48px;
   width: 48px;
-  position: relative;
 }
 
-.wd-user-name {
+.wd-bookmarked-user-name {
   color: white;
   font-size: 15px;
-  display: inline;
+  font-weight: bold;
 }
 
-.wd-post-user-handle {
+.wd-bookmarked-post-user-handle {
   color: lightgrey;
-  display: inline;
+  font-weight: normal;
+  font-size: 15px;
 }
 
-.wd-post-date {
+.wd-bookmarked-post-date {
   color: lightgrey;
-  display: inline;
+  font-weight: normal;
 }
 
-.wd-post-inner-content {
+.wd-bookmarked-post-inner-content {
   display: block;
   color: white;
   font-size: 15px;
@@ -48,20 +63,23 @@
   margin-right: 16px;
 }
 
-.wd-post-image-block {
-  margin-left: 76px;
+.wd-bookmarked-post-image-block {
+  margin-left: 12px;
   max-width: 504px;
   border: lightgrey 1px solid;
   border-radius: 5%;
 }
 
-.wd-post-image {
+.wd-bookmarked-post-image {
   width: 504px;
   height: 264px;
-  border-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom: lightgrey 1px solid;
+  margin-bottom: 12px;
 }
 
-.wd-post-image-title {
+.wd-bookmarked-post-image-title {
   color: white;
   font-size: 15px;
   font-weight: bold;
@@ -69,47 +87,37 @@
   margin: 0;
 }
 
-.wd-post-image-content {
+.wd-bookmarked-post-image-content {
   color: lightgrey;
   font-size: 15px;
   padding: 12px;
   margin: 0;
 }
 
-.wd-post-buttons {
-  margin-left: 76px;
-  display: flow-root;
+.wd-bookmarked-post-buttons {
   max-width: 504px;
   margin-top: 12px;
   text-align: center;
 }
 
-.wd-post-button-icon {
+.wd-bookmarked-post-button-icon {
   color: lightgrey;
   text-decoration: none;
 }
 
-.wd-post-button-number {
+.wd-bookmarked-post-button-number {
   color: lightgrey;
   margin-left: 12px;
 }
 
-.wd-post-button-heart-icon {
+.wd-bookmarked-post-button-heart-icon {
   color: red;
   text-decoration: none;
 }
 
-.wd-post-button-heart-number {
+.wd-bookmarked-post-button-heart-number {
   color: red;
   margin-left: 12px;
-}
-
-.wd-post-avatar {
-  display: inline-block;
-}
-
-.wd-post-content {
-  display: inline-block;
 }
 
 .wd-post-grid-col-thirds-page {
