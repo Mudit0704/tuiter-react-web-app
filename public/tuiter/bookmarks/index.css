@@ -81,22 +81,23 @@
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom: lightgrey 1px solid;
-  margin-bottom: 12px;
 }
 
 .wd-bookmarked-post-image-title {
   color: white;
   font-size: 15px;
   font-weight: bold;
-  padding: 12px;
   margin: 0;
 }
 
 .wd-bookmarked-post-image-content {
   color: lightgrey;
   font-size: 15px;
-  padding: 12px;
   margin: 0;
+}
+
+.wd-bookmarked-post-image-div {
+  padding: 12px;
 }
 
 .wd-bookmarked-post-buttons {
