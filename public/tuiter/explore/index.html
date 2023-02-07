@@ -4,103 +4,254 @@
   <meta charset="UTF-8">
   <title>Explore</title>
   <link href="index.css" rel="stylesheet"/>
-  <link href="../styles.css" rel="stylesheet"/>
-  <script src="https://kit.fontawesome.com/81b184deeb.js" crossorigin="anonymous"></script>
+  <!--  <link href="../styles.css" rel="stylesheet"/>-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet"/>
 </head>
 <body>
-<a href="../navigation.html"><i class="fas fa-arrow-left wd-back-button"></i></a>
+<!--<a href="../navigation.html"><i class="fas fa-arrow-left wd-back-button"></i></a>-->
 
-<div class="wd-main-div">
-  <div class="wd-search wd-16-left-margin">
-    <input class="wd-search-field" type="text" placeholder="Search Tuiter">
-    <a class="wd-search-settings" href="explore-settings.html"><i class="fas fa-cog"></i></a>
+<!--<div class="wd-main-div">-->
+<!--  <div class="wd-search wd-16-left-margin">-->
+<!--    <input class="wd-search-field" type="text" placeholder="Search Tuiter">-->
+<!--    <a class="wd-search-settings" href="explore-settings.html"><i class="fas fa-cog"></i></a>-->
+<!--  </div>-->
+
+<!--  <div class="wd-category-links">-->
+<!--    <a class="wd-first-category" href="#">For you</a>-->
+<!--    <a class="wd-other-category" href="#">Trending</a>-->
+<!--    <a class="wd-other-category" href="#">COVID-19</a>-->
+<!--    <a class="wd-other-category" href="#">News</a>-->
+<!--    <a class="wd-other-category" href="#">Sports</a>-->
+<!--    <a class="wd-other-category" href="#">Entertainment</a>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-C wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-C-topic">Trending in Science</p>-->
+<!--      <p class="wd-suggested-posts-C-title">Starship</p>-->
+<!--      <p class="wd-suggested-posts-C-number-of-tweets">55.5K Tweets</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-C-topic">Sports Trending</p>-->
+<!--      <p class="wd-suggested-posts-C-title">Joe Rogan</p>-->
+<!--      <p class="wd-suggested-posts-C-number-of-tweets">5,218 Tweets</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-D wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-D-author">The New York Times <i class="fas fa-check-circle"></i>-->
+<!--        - <span-->
+<!--            class="wd-suggested-posts-D-time">Yesterday</span></p>-->
+<!--      <p class="wd-suggested-posts-D-title">CNN's Cuomo conundrum: A star anchor with a brother in-->
+<!--        trouble</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <img class="wd-suggested-posts-images" src="../resources/nytimes.jpg" alt="suggested_image">-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-E wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-E-topic">COVID-19 - Live</p>-->
+<!--      <p class="wd-suggested-posts-E-title">COVID-19: News and updates for Massachusetts</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <img class="wd-suggested-posts-images" src="../resources/covid-19.jpg">-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-D wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-D-author">Bloomberg Opinion <i class="fas fa-check-circle"></i> - -->
+<!--        <span-->
+<!--            class="wd-suggested-posts-D-time">Yesterday</span></p>-->
+<!--      <p class="wd-suggested-posts-D-title">Thinking about getting a booster? Read this first.</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <img class="wd-suggested-posts-images" src="../resources/booster.jpg" alt="suggested_image">-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-E wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-E-topic">Massachusetts Voting - Live</p>-->
+<!--      <p class="wd-suggested-posts-E-title">Massachusetts Voting: News and updates for-->
+<!--        Massachusetts</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <img class="wd-suggested-posts-images" src="../resources/voting.jpg">-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="wd-suggested-posts-C wd-grid-row wd-16-left-padding">-->
+<!--    <div class="wd-grid-col-two-thirds-page">-->
+<!--      <p class="wd-suggested-posts-C-topic">Trending in United States</p>-->
+<!--      <p class="wd-suggested-posts-C-title">Wonder Bread</p>-->
+<!--      <p class="wd-suggested-posts-C-number-of-tweets">1,259 Tweets</p>-->
+<!--    </div>-->
+<!--    <div class="wd-grid-col-third-page wd-suggested-image">-->
+<!--      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--</div>-->
+
+<div class="container-fluid mt-3">
+  <div class="row">
+    <div class="col-xxl-2">
+      <ul class="list-group">
+        <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+        <li class="list-group-item"><i class="fas fa-home pe-2"></i>Home</li>
+        <li class="list-group-item active" aria-current="true"><i class="fas fa-hashtag pe-2"></i>Explore</li>
+        <li class="list-group-item"><i class="fas fa-bell pe-2"></i>Notifications</li>
+        <li class="list-group-item"><i class="fas fa-envelope pe-2"></i>Messages</li>
+        <li class="list-group-item"><i class="fas fa-bookmark pe-2"></i>Bookmarks</li>
+        <li class="list-group-item"><i class="fas fa-list pe-2"></i>Lists</li>
+        <li class="list-group-item"><i class="fas fa-user pe-2"></i>Profile</li>
+        <li class="list-group-item">
+          <span class="fa-stack pe-2" style="font-size: 0.5em;">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse" ></i>
+          </span>
+          More</li>
+        <li class="list-group-item border-0 p-0 mt-2">
+          <button type="button" class="btn btn-primary" style="width: 100%">Tweet</button>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xxl-7">
+      <div class="input-group mb-3">
+        <span class="input-group-text bg-transparent border-end-0" id="basic-addon1"><i
+            class="fa fa-search"></i></span>
+        <input type="text" class="form-control border-start-0" placeholder="Search Twitter"
+               aria-label="Search Twitter" aria-describedby="basic-addon1">
+      </div>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="for-you.html">For You</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trending.html">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sports.html">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="entertainment.html">Entertainment</a>
+        </li>
+      </ul>
+
+      <div class="card mt-3 mb-3">
+        <img src="../../images/starship.jpg" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-white fa-4x fw-bold">
+          SpaceX's Starship
+        </div>
+
+        <ul class="list-group" style="width: 100%">
+          <li class="list-group-item border-0 border-bottom">
+            <div class="row">
+              <div class="col-xxl-10">
+                <div style="color: gray">Web Development</div>
+                <div class="fw-bold">ReactJS <i class="fas fa-check-circle"></i> - 2h</div>
+                <div class="fw-bold">React.js is a component based front end library that makes it
+                very easy to build Single Page Applications or SPAs</div>
+              </div>
+              <div class="col-xxl-2"><img src="../../images/react.jpg" style="height: 100px; width: 100px;"></div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 border-bottom">
+            <div class="row">
+              <div class="col-xxl-10"><span class="fw-bold">JavaScript <i class="fas fa-check-circle"></i> - 2h</span>
+                <div class="fw-bold">JavaScript is a programming language that can run on
+                browsers as well as desktops</div>
+                <div style="color: gray">123K Tweets</div>
+              </div>
+              <div class="col-xxl-2"><img src="../../images/js.jpg" style="height: 100px; width: 100px;"></div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 border-bottom">
+            <div class="row">
+
+              <div class="col-xxl-10">
+                <div style="color: gray">Web Development</div>
+                <div class="fw-bold">jQuery</div>
+                <div style="color: gray">123K Tweets</div>
+              </div>
+              <div class="col-xxl-2"><img src="../../images/jquery.jpg" style="height: 100px; width: 100px;"></div>
+            </div>
+          </li>
+          <li class="list-group-item border-0 border-bottom">
+            <div class="row">
+              <div class="col-xxl-10">
+                <div style="color: gray">Web Development</div>
+                <div class="fw-bold">NodeJS <i class="fas fa-check-circle"></i> - 2h</div>
+                <div style="color: gray">123K Tweets</div>
+              </div>
+              <div class="col-xxl-2"><img src="../../images/nodejs.jpg" style="height: 100px; width: 100px;"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-xxl-3">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xxl-2"><img src="../../images/java.jpg" style="height: 40px; width: 40px;"></div>
+            <div class="col-xxl-8"><span class="fw-bold">Java <i class="fas fa-check-circle"></i></span><br/>@Java</div>
+            <div class="col-xxl-2"><button type="button" class="btn btn-primary btn-sm">Follow</button></div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xxl-2"><img src="../../images/relativity.jpg" style="height: 40px; width: 40px;"></div>
+            <div class="col-xxl-8"><span class="fw-bold">Relativity Space <i class="fas fa-check-circle"></i></span><br/>@relativityspace</div>
+            <div class="col-xxl-2"><button type="button" class="btn btn-primary btn-sm">Follow</button></div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xxl-2"><img src="../../images/virgin.jpg" style="height: 40px; width: 40px;"></div>
+            <div class="col-xxl-8"><span class="fw-bold">Virgin Galactic <i class="fas fa-check-circle"></i></span><br/>@virgingalactic</div>
+            <div class="col-xxl-2"><button type="button" class="btn btn-primary btn-sm">Follow</button></div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xxl-2"><img src="../../images/nasa.jpg" style="height: 40px; width: 40px;"></div>
+            <div class="col-xxl-8"><span class="fw-bold">NASA <i class="fas fa-check-circle"></i></span><br/>@NASA</div>
+            <div class="col-xxl-2"><button type="button" class="btn btn-primary btn-sm">Follow</button></div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xxl-2"><img src="../../images/tesla.jpg" style="height: 40px; width: 40px;"></div>
+            <div class="col-xxl-8"><span class="fw-bold">Tesla <i class="fas fa-check-circle"></i></span><br/>@Tesla</div>
+            <div class="col-xxl-2"><button type="button" class="btn btn-primary btn-sm">Follow</button></div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-
-  <div class="wd-category-links">
-    <a class="wd-first-category" href="#">For you</a>
-    <a class="wd-other-category" href="#">Trending</a>
-    <a class="wd-other-category" href="#">COVID-19</a>
-    <a class="wd-other-category" href="#">News</a>
-    <a class="wd-other-category" href="#">Sports</a>
-    <a class="wd-other-category" href="#">Entertainment</a>
-  </div>
-
-  <div class="wd-suggested-posts-C wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-C-topic">Trending in Science</p>
-      <p class="wd-suggested-posts-C-title">Starship</p>
-      <p class="wd-suggested-posts-C-number-of-tweets">55.5K Tweets</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>
-    </div>
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-C-topic">Sports Trending</p>
-      <p class="wd-suggested-posts-C-title">Joe Rogan</p>
-      <p class="wd-suggested-posts-C-number-of-tweets">5,218 Tweets</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>
-    </div>
-  </div>
-
-  <div class="wd-suggested-posts-D wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-D-author">The New York Times <i class="fas fa-check-circle"></i>
-        - <span
-            class="wd-suggested-posts-D-time">Yesterday</span></p>
-      <p class="wd-suggested-posts-D-title">CNN's Cuomo conundrum: A star anchor with a brother in
-        trouble</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <img class="wd-suggested-posts-images" src="../resources/nytimes.jpg" alt="suggested_image">
-    </div>
-  </div>
-
-  <div class="wd-suggested-posts-E wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-E-topic">COVID-19 - Live</p>
-      <p class="wd-suggested-posts-E-title">COVID-19: News and updates for Massachusetts</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <img class="wd-suggested-posts-images" src="../resources/covid-19.jpg">
-    </div>
-  </div>
-
-  <div class="wd-suggested-posts-D wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-D-author">Bloomberg Opinion <i class="fas fa-check-circle"></i> -
-        <span
-            class="wd-suggested-posts-D-time">Yesterday</span></p>
-      <p class="wd-suggested-posts-D-title">Thinking about getting a booster? Read this first.</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <img class="wd-suggested-posts-images" src="../resources/booster.jpg" alt="suggested_image">
-    </div>
-  </div>
-
-  <div class="wd-suggested-posts-E wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-E-topic">Massachusetts Voting - Live</p>
-      <p class="wd-suggested-posts-E-title">Massachusetts Voting: News and updates for
-        Massachusetts</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <img class="wd-suggested-posts-images" src="../resources/voting.jpg">
-    </div>
-  </div>
-
-  <div class="wd-suggested-posts-C wd-grid-row wd-16-left-padding">
-    <div class="wd-grid-col-two-thirds-page">
-      <p class="wd-suggested-posts-C-topic">Trending in United States</p>
-      <p class="wd-suggested-posts-C-title">Wonder Bread</p>
-      <p class="wd-suggested-posts-C-number-of-tweets">1,259 Tweets</p>
-    </div>
-    <div class="wd-grid-col-third-page wd-suggested-image">
-      <a href="#"><i class="fas fa-ellipsis-h wd-more-options"></i></a>
-    </div>
-  </div>
-
 </div>
 
 </body>
