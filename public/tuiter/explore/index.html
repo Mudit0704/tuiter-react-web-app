@@ -16,55 +16,51 @@
 </head>
 <body>
 
-<div class="container-fluid mt-3">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-xl-2 col-lg-1 col-md-2 col-sm-2">
+    <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 pt-3">
       <ul class="list-group">
-        <li class="list-group-item override-list-item"><i class="fab fa-twitter"></i></li>
-        <li class="list-group-item override-list-item">
-          <i class="fas fa-home pe-2"></i>
-          <span class="d-none d-xl-inline-block">Home</span>
+        <li class="list-group-item wd-override-list-item"><i class="fab fa-twitter"></i></li>
+        <li class="list-group-item wd-override-list-item">
+          <i class="fas fa-home pe-2"></i><a href="#" class="wd-navs d-none d-xl-inline-block">Home</a>
         </li>
-        <li class="list-group-item override-list-item active override-list-active">
-          <i class="fas fa-hashtag pe-2"></i>
-          <span class="d-none d-xl-inline-block">Explore</span>
+        <li class="list-group-item wd-override-list-item active wd-override-list-active">
+          <i class="fas fa-hashtag pe-2"></i><a href="#" class="wd-navs d-none d-xl-inline-block">Explore</a>
         </li>
-        <li class="list-group-item override-list-item">
-          <i class="fas fa-bell pe-2"></i>
-          <span class="d-none d-xl-inline-block">Notifications</span>
+        <li class="list-group-item wd-override-list-item">
+          <i class="fas fa-bell pe-2"></i><a href="#" class="wd-navs d-none d-xl-inline-block">Notifications</a>
         </li>
-        <li class="list-group-item override-list-item">
-          <i class="fas fa-envelope pe-2"></i>
-          <span class="d-none d-xl-inline-block">Messages</span>
+        <li class="list-group-item wd-override-list-item">
+          <i class="fas fa-envelope pe-2"></i><a href="#" class="wd-navs d-none d-xl-inline-block">Messages</a>
         </li>
-        <li class="list-group-item override-list-item">
+        <li class="list-group-item wd-override-list-item">
           <i class="fas fa-bookmark pe-2"></i>
-          <span class="d-none d-xl-inline-block">Bookmarks</span>
+          <a href="#" class="wd-navs d-none d-xl-inline-block">Bookmarks</a>
         </li>
-        <li class="list-group-item override-list-item">
-          <i class="fas fa-list pe-2"></i>
-          <span class="d-none d-xl-inline-block">Lists</span>
+        <li class="list-group-item wd-override-list-item">
+          <i class="fas fa-fire pe-2"></i>
+          <a href="#" class="wd-navs d-none d-xl-inline-block">Top Articles</a>
         </li>
-        <li class="list-group-item override-list-item">
+        <li class="list-group-item wd-override-list-item">
           <i class="fas fa-user pe-2"></i>
-          <span class="d-none d-xl-inline-block">Profile</span>
+          <a href="#" class="wd-navs d-none d-xl-inline-block">Profile</a>
         </li>
-        <li class="list-group-item override-list-item">
-          <span class="fa-stack pe-2" style="font-size: 0.5em;">
+        <li class="list-group-item wd-override-list-item">
+          <span class="fa-stack pe-2">
             <i class="far fa-circle fa-stack-2x"></i>
             <i class="fas fa-ellipsis-h fa-stack-1x" ></i>
           </span>
-          <span class="d-none d-xl-inline-block">More</span>
+          <a href="#" class="wd-navs d-none d-xl-inline-block">More</a>
         </li>
         <li class="list-group-item border-0 p-0 mt-2">
-          <button type="button" class="btn btn-primary override-tweet-button rounded-pill w-100">Tweet</button>
+          <button type="button" class="btn btn-primary wd-override-tweet-button rounded-pill w-100">Tweet</button>
         </li>
       </ul>
     </div>
-    <div class="col-xl-7 col-lg-7 col-md-10 col-sm-10">
+    <div class="wd-center-col col-xxl-7 col-xl-6 col-lg-7 col-md-10 col-sm-10 pt-3">
       <div class="row">
         <div class="col-11">
-          <div class="input-group override-search-field mb-3 rounded-pill" style="border: 1px solid lightgray;">
+          <div class="input-group wd-override-search-field mb-3 rounded-pill">
             <div class="input-group-text bg-transparent border-0" id="basic-addon1"><i
                 class="fa fa-search"></i></div>
             <input type="text" class="form-control border-0 bg-transparent shadow-none" placeholder="Search Twitter"
@@ -75,9 +71,9 @@
           <i class="fa fa-cog fa-2x mt-1"></i>
         </div>
       </div>
-      <ul class="nav nav-tabs override-nav-tabs">
-        <li class="nav-item override-nav-item">
-          <a class="nav-link active override-nav-active" href="for-you.html">For You</a>
+      <ul class="nav nav-tabs wd-override-nav-tabs">
+        <li class="nav-item wd-override-nav-item">
+          <a class="nav-link active wd-override-nav-active" href="for-you.html">For You</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="trending.html">Trending</a>
@@ -93,98 +89,103 @@
         </li>
       </ul>
 
-      <div class="card mt-3 mb-3">
-        <img src="../../images/starship.jpg" class="card-img-top" alt="...">
+      <div class="card wd-main-col-card mt-3 mb-3">
+        <img src="../../images/starship.jpg" class="card-img-top wd-main-col-card-img" alt="...">
         <div class="card-img-overlay">
-          <h1 class="card-title text-white" style="margin-top: 60%;">SpaceX's Starship</h1>
+          <h1 class="card-title text-white wd-overlay-text">SpaceX's Starship</h1>
         </div>
 
         <ul class="list-group">
-          <li class="list-group-item border-0 border-bottom">
+          <li class="list-group-item border-0">
             <div class="row">
               <div class="col-xl-10 col-sm-9">
-                <div style="color: gray">Web Development</div>
+                <div class="wd-post-topic">Web Development</div>
                 <div class="fw-bold">ReactJS <i class="fas fa-check-circle"></i> - 2h</div>
                 <div class="fw-bold text-wrap">React.js is a component based front end library that makes it
                 very easy to build Single Page Applications or SPAs</div>
               </div>
-              <div class="col-xl-2 col-sm-3"><img src="../../images/react.jpg" style="height: 100px; width: 100px;"></div>
+              <div class="col-xl-2 col-sm-3 wd-post-options"><i class="fas fa-ellipsis-h"></i></div>
             </div>
           </li>
-          <li class="list-group-item border-0 border-bottom">
+          <li class="list-group-item border-0">
             <div class="row">
               <div class="col-xl-10 col-sm-9"><span class="fw-bold">JavaScript <i class="fas fa-check-circle"></i> - 2h</span>
                 <div class="fw-bold text-wrap">JavaScript is a programming language that can run on
                 browsers as well as desktops</div>
-                <div style="color: gray">123K Tweets</div>
+                <div class="wd-post-topic">123K Tweets</div>
               </div>
-              <div class="col-xl-2 col-sm-3"><img src="../../images/js.jpg" style="height: 100px; width: 100px;"></div>
+              <div class="col-xl-2 col-sm-3 wd-post-options"><i class="fas fa-ellipsis-h"></i></div>
             </div>
           </li>
-          <li class="list-group-item border-0 border-bottom">
+          <li class="list-group-item border-0">
             <div class="row">
 
               <div class="col-xl-10 col-sm-9">
-                <div style="color: gray">Web Development</div>
+                <div class="wd-post-topic">Web Development</div>
                 <div class="fw-bold">jQuery</div>
-                <div style="color: gray">123K Tweets</div>
+                <div class="wd-post-topic">123K Tweets</div>
               </div>
-              <div class="col-xl-2 col-sm-3"><img src="../../images/jquery.jpg" style="height: 100px; width: 100px;"></div>
+              <div class="col-xl-2 col-sm-3 wd-post-options"><i class="fas fa-ellipsis-h"></i></div>
             </div>
           </li>
-          <li class="list-group-item border-0 border-bottom">
+          <li class="list-group-item border-0">
             <div class="row">
               <div class="col-xl-10 col-sm-9">
-                <div style="color: gray">Web Development</div>
+                <div class="wd-post-topic">Web Development</div>
                 <div class="fw-bold">NodeJS <i class="fas fa-check-circle"></i> - 2h</div>
-                <div style="color: gray">123K Tweets</div>
+                <div class="wd-post-topic">123K Tweets</div>
               </div>
-              <div class="col-xl-2 col-sm-3"><img src="../../images/nodejs.jpg" style="height: 100px; width: 100px;"></div>
+              <div class="col-xl-2 col-sm-3 wd-post-options"><i class="fas fa-ellipsis-h"></i></div>
             </div>
           </li>
         </ul>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-4 d-none d-lg-block">
-      <ul class="list-group override-list-group">
-        <li class="list-group-item override-follow-list-item">
+    <div class="col-xxl-3 col-xl-4 col-lg-4 d-none d-lg-block pt-3">
+      <ul class="list-group wd-override-list-group">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row">
             <div class="col-8"><span class="fw-bold follow-header">Who to follow</span></div>
           </div>
         </li>
-        <li class="list-group-item override-follow-list-item">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row align-items-center">
-            <div class="col-2"><img src="../../images/java.jpg" class="rounded-2" style="height: 48px; width: 48px;"></div>
+            <div class="col-2"><img src="../../images/java.jpg" class="rounded-2 wd-follow-img"></div>
             <div class="col-7"><span class="fw-bold">Java <i class="fas fa-check-circle"></i></span><br/>@Java</div>
-            <div class="col-3 p-0"><button type="button" class="btn btn-primary override-follow-btn rounded-pill">Follow</button></div>
+            <div class="col-3 p-0"><button type="button" class="btn btn-primary wd-override-follow-btn rounded-pill">Follow</button></div>
           </div>
         </li>
-        <li class="list-group-item override-follow-list-item">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row align-items-center">
-            <div class="col-2"><img src="../../images/relativity.jpg" class="rounded-2" style="height: 48px; width: 48px;"></div>
+            <div class="col-2"><img src="../../images/relativity.jpg" class="rounded-2 wd-follow-img"></div>
             <div class="col-7"><span class="fw-bold">Relativity Space <i class="fas fa-check-circle"></i></span><br/>@relativityspace</div>
-            <div class="col-3 p-0"><button type="button" class="btn btn-primary override-follow-btn rounded-pill">Follow</button></div>
+            <div class="col-3 p-0"><button type="button" class="btn btn-primary wd-override-follow-btn rounded-pill">Follow</button></div>
           </div>
         </li>
-        <li class="list-group-item override-follow-list-item">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row align-items-center">
-            <div class="col-2"><img src="../../images/virgin.jpg" class="rounded-2" style="height: 48px; width: 48px;"></div>
+            <div class="col-2"><img src="../../images/virgin.jpg" class="rounded-2 wd-follow-img"></div>
             <div class="col-7"><span class="fw-bold">Virgin Galactic <i class="fas fa-check-circle"></i></span><br/>@virgingalactic</div>
-            <div class="col-3 p-0"><button type="button" class="btn btn-primary override-follow-btn rounded-pill">Follow</button></div>
+            <div class="col-3 p-0"><button type="button" class="btn btn-primary wd-override-follow-btn rounded-pill">Follow</button></div>
           </div>
         </li>
-        <li class="list-group-item override-follow-list-item">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row align-items-center">
-            <div class="col-2"><img src="../../images/nasa.jpg" class="rounded-2" style="height: 48px; width: 48px;"></div>
+            <div class="col-2"><img src="../../images/nasa.jpg" class="rounded-2 wd-follow-img"></div>
             <div class="col-7"><span class="fw-bold">NASA <i class="fas fa-check-circle"></i></span><br/>@NASA</div>
-            <div class="col-3 p-0"><button type="button" class="btn btn-primary override-follow-btn rounded-pill">Follow</button></div>
+            <div class="col-3 p-0"><button type="button" class="btn btn-primary wd-override-follow-btn rounded-pill">Follow</button></div>
           </div>
         </li>
-        <li class="list-group-item override-follow-list-item">
+        <li class="list-group-item wd-override-follow-list-item">
           <div class="row align-items-center">
-            <div class="col-2"><img src="../../images/tesla.jpg" class="rounded-2" style="height: 48px; width: 48px;"></div>
+            <div class="col-2"><img src="../../images/tesla.jpg" class="rounded-2 wd-follow-img"></div>
             <div class="col-7"><span class="fw-bold">Tesla <i class="fas fa-check-circle"></i></span><br/>@Tesla</div>
-            <div class="col-3 p-0"><button type="button" class="btn btn-primary override-follow-btn rounded-pill">Follow</button></div>
+            <div class="col-3 p-0"><button type="button" class="btn btn-primary wd-override-follow-btn rounded-pill">Follow</button></div>
+          </div>
+        </li>
+        <li class="list-group-item wd-override-follow-list-item">
+          <div class="row align-items-center">
+            <span class="wd-show-more">Show More</span>
           </div>
         </li>
       </ul>

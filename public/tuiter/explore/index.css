@@ -1,136 +1,9 @@
-.wd-main-div {
-  padding-top: 16px;
-}
-
-.wd-search-field {
-  color: white;
-  background-color: darkgray;
-  border-radius: 50px;
-  float: left;
-  width: 92%;
-  height: 40px;
-  padding-left: 20px;
-}
-
-::placeholder {
-  color: white;
-}
-
-.wd-search-settings {
-  padding-top: 8px;
-  margin-right: 12px;
-  float: right;
-  color: rgb(29, 161, 242);
-  font-size: 30px;
-}
-
-.wd-category-links {
-  padding-top: 30px;
-  padding-bottom: 18px;
-  float: left;
-  font-size: 15px;
-  border-bottom: rgb(110, 118, 125) 20px solid;
-  width: 100%;
-}
-
-.wd-first-category {
-  color: rgb(29, 161, 242);
-  border-bottom: 3px solid rgb(29, 161, 242);
-  padding: 16px;
-  text-decoration: none;
-}
-
-.wd-other-category {
-  color: rgb(110, 118, 125);
-  padding: 16px;
-  text-decoration: none;
-}
-
-.wd-suggested-posts-C {
-  font-size: 13px;
-  border-top: rgb(47, 51, 54) 1px solid;
-  display: flow-root;
-}
-
-.wd-suggested-posts-C-topic {
-  color: rgb(110, 118, 125);
-}
-
-.wd-suggested-posts-C-number-of-tweets {
-  color: rgb(110, 118, 125);
-  margin-top: -10px;
-}
-
-.wd-suggested-posts-C-title {
-  color: white;
-  font-size: 18px;
-  margin-top: -10px;
-  font-weight: bold;
-}
-
-.wd-suggested-posts-D {
-  border-top: rgb(47, 51, 54) 1px solid;
-}
-
-.wd-suggested-posts-D-time {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
-}
-
-.wd-suggested-posts-D-author {
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 2px;
-}
-
-.wd-suggested-posts-D-title {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
-.wd-suggested-posts-E {
-  border-top: rgb(47, 51, 54) 1px solid;
-}
-
-.wd-suggested-posts-E-topic {
-  font-size: 16px;
-  color: lightgrey;
-  margin-top: 20px;
-  margin-bottom: 2px;
-}
-
-.wd-suggested-posts-E-title {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
-.wd-suggested-posts-images {
-  width: 100px;
-  height: 100px;
-  float: right;
-  margin-right: 16px;
-  border-radius: 15%;
-  margin-top: 20px;
-}
-
-.wd-suggested-image {
-  padding-bottom: 20px;
-}
-
-.list-group-item.override-list-item {
+.list-group-item.wd-override-list-item {
   border: none;
   font-family: "Helvetica Neue", sans-serif;
 }
 
-.list-group-item.override-list-item.active.override-list-active {
+.list-group-item.wd-override-list-item.active.wd-override-list-active {
   background: transparent;
   color: black;
   font-weight: bold;
@@ -141,18 +14,19 @@
   font-size: 1.5em;
 }
 
-.btn-primary.override-tweet-button {
+.btn-primary.wd-override-tweet-button {
   background-color: #00acee;
   border: none;
 }
 
-.input-group.override-search-field {
+.input-group.wd-override-search-field {
   background-color: #f5f5f5;
 }
 
-.nav-tabs.override-nav-tabs {
+.nav-tabs.wd-override-nav-tabs {
   border: none;
   font-family: "Helvetica Neue", sans-serif;
+  justify-content: space-between;
 }
 
 a.nav-link {
@@ -164,28 +38,28 @@ a.nav-link:hover {
   border: none;
 }
 
-.nav-link.active.override-nav-active {
+.nav-link.active.wd-override-nav-active {
   border: none;
 }
 
-.nav-item.override-nav-item {
+.nav-item.wd-override-nav-item {
   border-bottom: 5px solid #00acee;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.list-group.override-list-group {
+.list-group.wd-override-list-group {
   border: 2px solid #f5f5f5;
 }
 
-.list-group-item.override-follow-list-item {
+.list-group-item.wd-override-follow-list-item {
   border: none;
   background-color: rgb(248, 248, 248);
   font-family: "Helvetica Neue", sans-serif;
   padding-bottom: 10px;
 }
 
-.btn-primary.override-follow-btn {
+.btn-primary.wd-override-follow-btn {
   background-color: black;
   border: none;
 }
@@ -197,4 +71,47 @@ a.nav-link:hover {
 .follow-header {
   font-size: 1.5em;
   font-weight: bolder;
+}
+
+.wd-show-more {
+  color: #00acee;
+}
+
+.wd-post-options {
+  text-align: right;
+}
+
+a.wd-navs {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-stack {
+  font-size: 0.5em;
+}
+
+.wd-center-col {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.card.wd-main-col-card {
+  border: none;
+}
+
+.card-img-top.wd-main-col-card-img {
+  border-radius: 0;
+}
+
+.card-title.text-white.wd-overlay-text {
+  margin-top: 60%;
+}
+
+.wd-post-topic {
+  color: gray;
+}
+
+.wd-follow-img {
+  height: 48px;
+  width: 48px;
 }
