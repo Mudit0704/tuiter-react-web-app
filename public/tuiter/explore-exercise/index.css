@@ -1,0 +1,127 @@
+.wd-main-div {
+  padding-top: 16px;
+}
+
+.wd-search-field {
+  color: white;
+  background-color: darkgray;
+  border-radius: 50px;
+  float: left;
+  width: 92%;
+  height: 40px;
+  padding-left: 20px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.wd-search-settings {
+  padding-top: 8px;
+  margin-right: 12px;
+  float: right;
+  color: rgb(29, 161, 242);
+  font-size: 30px;
+}
+
+.wd-category-links {
+  padding-top: 30px;
+  padding-bottom: 18px;
+  float: left;
+  font-size: 15px;
+  border-bottom: rgb(110, 118, 125) 20px solid;
+  width: 100%;
+}
+
+.wd-first-category {
+  color: rgb(29, 161, 242);
+  border-bottom: 3px solid rgb(29, 161, 242);
+  padding: 16px;
+  text-decoration: none;
+}
+
+.wd-other-category {
+  color: rgb(110, 118, 125);
+  padding: 16px;
+  text-decoration: none;
+}
+
+.wd-suggested-posts-C {
+  font-size: 13px;
+  border-top: rgb(47, 51, 54) 1px solid;
+  display: flow-root;
+}
+
+.wd-suggested-posts-C-topic {
+  color: rgb(110, 118, 125);
+}
+
+.wd-suggested-posts-C-number-of-tweets {
+  color: rgb(110, 118, 125);
+  margin-top: -10px;
+}
+
+.wd-suggested-posts-C-title {
+  color: white;
+  font-size: 18px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.wd-suggested-posts-D {
+  border-top: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-suggested-posts-D-time {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-suggested-posts-D-author {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.wd-suggested-posts-D-title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.wd-suggested-posts-E {
+  border-top: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-suggested-posts-E-topic {
+  font-size: 16px;
+  color: lightgrey;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.wd-suggested-posts-E-title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.wd-suggested-posts-images {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 16px;
+  border-radius: 15%;
+  margin-top: 20px;
+}
+
+.wd-suggested-image {
+  padding-bottom: 20px;
+}
+
