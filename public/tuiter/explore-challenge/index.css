@@ -1,6 +1,7 @@
 .list-group-item.wd-override-list-item {
   border: none;
   font-family: "Helvetica Neue", sans-serif;
+  padding-bottom: 20px;
 }
 
 .list-group-item.wd-override-list-item.active.wd-override-list-active {
@@ -114,4 +115,8 @@ a.wd-navs {
 .wd-follow-img {
   height: 48px;
   width: 48px;
+}
+
+.wd-nav-group {
+  font-size: 1.25em;
 }

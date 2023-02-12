@@ -23,3 +23,8 @@
   height: 48px;
   width: 48px;
 }
+
+a.wd-navs {
+  text-decoration: none;
+  color: black;
+}
