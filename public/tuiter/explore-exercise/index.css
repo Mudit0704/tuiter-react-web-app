@@ -2,12 +2,17 @@
   font-size: 0.5em;
 }
 
+.fa-search {
+  color: darkgray;
+}
+
 .wd-search-twitter {
   border: 1px solid lightgray;
+  background-color: white;
 }
 
 .card-title.text-white.wd-overlay-text {
-  margin-top: 60%;
+  margin-top: 55%;
 }
 
 .wd-post-topic {
@@ -17,6 +22,7 @@
 .wd-post-img {
   height: 100px;
   width: 100px;
+  border-radius: 10px;
 }
 
 .wd-follow-img {
@@ -27,4 +33,12 @@
 a.wd-navs {
   text-decoration: none;
   color: black;
+}
+
+.list-group-item.border-0.border-bottom.wd-test {
+  border-color: #565656 !important;
+}
+
+.wd-post-summary-img {
+  text-align: right;
 }
