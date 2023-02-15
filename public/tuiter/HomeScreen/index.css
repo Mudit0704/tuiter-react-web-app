@@ -1,0 +1,63 @@
+.fa-stack {
+  font-size: 0.5em;
+}
+
+.fa-search {
+  color: darkgray;
+}
+
+.wd-search-twitter {
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.card-title.text-white.wd-overlay-text {
+  margin-top: 55%;
+  font-size: 2.75em;
+}
+
+.wd-post-topic {
+  color: gray;
+}
+
+.wd-post-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.wd-follow-img {
+  height: 48px;
+  width: 48px;
+}
+
+a.wd-navs {
+  text-decoration: none;
+  color: black;
+}
+
+.list-group-item.border-0.border-bottom.wd-test {
+  border-color: #565656 !important;
+}
+
+.wd-post-summary-img {
+  text-align: right;
+}
+
+.wd-avatar-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.wd-post-buttons {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.wd-post-details {
+  color: lightgrey;
+}
+
+.wd-post-content {
+  color: lightgrey;
+}
