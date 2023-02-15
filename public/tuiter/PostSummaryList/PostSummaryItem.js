@@ -8,7 +8,7 @@ const PostSummaryItem = (post) => {
         <div class="fw-bold">${post.userName}<i class="fas fa-check-circle"></i> - ${post.time}</div>
         <div class="fw-bold text-wrap">${post.title}</div>
       </div>
-      <div class="col-xl-3 col-sm-3 wd-post-summary-img"><img src=${post.image} class="wd-post-img"></div>
+      <div class="col-xl-3 col-sm-3 wd-post-summary-img"><img src=${post.image} class="wd-post-summary-img"></div>
     </div>
   </li>
   `);

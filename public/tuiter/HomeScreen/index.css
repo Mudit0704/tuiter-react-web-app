@@ -20,9 +20,10 @@
   color: gray;
 }
 
-.wd-post-img {
+.wd-post-summary-img {
   height: 60px;
   width: 60px;
+  text-align: right;
   border-radius: 10px;
 }
 
@@ -38,10 +39,6 @@ a.wd-navs {
 
 .list-group-item.border-0.border-bottom.wd-test {
   border-color: #565656 !important;
-}
-
-.wd-post-summary-img {
-  text-align: right;
 }
 
 .wd-avatar-icon {
@@ -60,4 +57,13 @@ a.wd-navs {
 
 .wd-post-content {
   color: lightgrey;
+}
+
+.wd-post-card {
+  border: 2px solid #4b4b4b !important;
+}
+
+.wd-post-img {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
 }
