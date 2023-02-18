@@ -67,3 +67,7 @@ a.wd-navs {
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
+
+#wd-home {
+  margin-top: 30px;
+}

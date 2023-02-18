@@ -7,7 +7,7 @@ const NavigationSidebar = (active) => {
           <i class="fas fa-home pe-2"></i><a href="../HomeScreen/index.html" class="wd-navs d-none d-xl-inline-block text-white">Home</a>
         </li>
         <li class="list-group-item ${active === 'explore' ? 'active' : ''}">
-          <i class="fas fa-hashtag pe-2"></i><a href="../explore-exercise/index.html" class="wd-navs d-none d-xl-inline-block text-white">Explore</a>
+          <i class="fas fa-hashtag pe-2"></i><a href="../ExploreScreen/index.html" class="wd-navs d-none d-xl-inline-block text-white">Explore</a>
         </li>
         <li class="list-group-item ${active === 'notifications' ? 'active' : ''}">
           <i class="fas fa-bell pe-2"></i><a href="#" class="wd-navs d-none d-xl-inline-block text-white">Notifications</a>
