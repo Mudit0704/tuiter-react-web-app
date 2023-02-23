@@ -24,7 +24,7 @@ const PostItem = ({
 }) => {
   return(
       <>
-     <li className="list-group-item border-0 bg-transparent p-0">
+     <li className="list-group-item border-0 bg-transparent p-0 mt-2">
      <div className="row align-top">
         <div className="col-1">
           <img src= {`/images/${post.avatarIcon}`} className="rounded-5 wd-avatar-icon" alt="..."/>
