@@ -1,0 +1,79 @@
+.card-title.text-white.wd-overlay-text {
+  margin-top: 55%;
+  font-size: 2.75em;
+}
+
+.wd-profile-handle {
+  color: gray;
+}
+
+.wd-profile-banner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.wd-profile-image {
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  z-index: 2;
+  margin-top: -70px;
+}
+
+.wd-post-summary-img {
+  height: 60px;
+  width: 60px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.wd-follow-img {
+  height: 48px;
+  width: 48px;
+}
+
+a.wd-navs {
+  text-decoration: none;
+  color: black;
+}
+
+.list-group-item.border-0.border-bottom.wd-test {
+  border-color: #565656 !important;
+}
+
+.wd-avatar-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.wd-post-buttons {
+  border: none;
+  background: transparent;
+  color: #696868;
+}
+
+.wd-post-buttons-heart {
+  border: none;
+  background: transparent;
+  color: red;
+}
+
+.wd-post-details {
+  color: #696868;
+}
+
+.wd-post-content {
+  color: #696868;
+}
+
+.wd-post-card {
+  border: 2px solid #4b4b4b !important;
+}
+
+.wd-post-img {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+#wd-home {
+  margin-top: 30px;
+}
