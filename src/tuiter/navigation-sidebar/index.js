@@ -8,8 +8,8 @@ const NavigationSidebar = () => {
   const active = paths[2];
   return (
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
-        <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+        <a className="list-group-item" href="/tuiter">Tuiter</a>
+        <Link to="/tuiter" className={`list-group-item ${active === undefined || active === ""?'active':''}`}>
           Home
         </Link>
         <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>

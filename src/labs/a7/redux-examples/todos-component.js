@@ -18,6 +18,7 @@ const Todos = () => {
   }
   const todoChangeHandler = (event) => {
     const doValue = event.target.value;
+
     const newTodo = {
       do: doValue
     };

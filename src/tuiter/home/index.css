@@ -34,8 +34,15 @@ a.wd-navs {
 }
 
 .wd-post-buttons {
-  text-decoration: none;
+  border: none;
+  background: transparent;
   color: #696868;
+}
+
+.wd-post-buttons-heart {
+  border: none;
+  background: transparent;
+  color: red;
 }
 
 .wd-post-details {
