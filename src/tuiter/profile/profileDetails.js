@@ -2,6 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCalendar} from "@fortawesome/free-regular-svg-icons";
 import {faCakeCandles, faLocationDot, faLongArrowLeft} from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-router-dom";
 
 const ProfileDetails = (
     {
@@ -39,35 +40,34 @@ const ProfileDetails = (
             <img className="wd-profile-image bg-white ms-4" src={`/images/${profile.profilePicture}`}/>
           </div>
           <div className="col-9">
-            <button className="btn btn-outline-light rounded-pill border-dark
-            text-dark float-end mt-3 fw-bold">Edit Profile</button>
+            <Link className="btn btn-outline-light rounded-pill border-dark
+            text-dark float-end mt-3 fw-bold" to="/tuiter/edit-profile">Edit Profile</Link>
           </div>
         </div>
         <div className="row mt-4">
           <h3 className="fw-bold mb-0">{profile.firstName + " " + profile.lastName} </h3>
-          <span className="wd-profile-handle">{profile.handle}</span>
+          <span className="wd-gray-text">{profile.handle}</span>
         </div>
         <div className="row mt-3">
           <p>{profile.bio}</p>
         </div>
         <div className="row">
-          <span className="col-4">
-         <button className="wd-post-buttons"><FontAwesomeIcon icon={faLocationDot}/>
-         <span className="ms-2">{profile.location}</span></button>
+          <span className="col-4 wd-gray-text">
+         <FontAwesomeIcon icon={faLocationDot}/>
+         <span className="ms-2">{profile.location}</span>
          </span>
-              <span className="col-4">
-         <button className="wd-post-buttons"><FontAwesomeIcon icon={faCakeCandles}/>
+              <span className="col-4 wd-gray-text">
+         <FontAwesomeIcon icon={faCakeCandles}/>
            <span> Born</span>
-         <span className="ms-2">{profile.dateOfBirth}</span></button>
+         <span className="ms-2">{profile.dateOfBirth}</span>
          </span>
-              <span className="col-4">
-         <button className="wd-post-buttons">
+              <span className="col-4 wd-gray-text">
            <FontAwesomeIcon icon={faCalendar}/>
            <span> Joined</span>
-           <span className="ms-2">{profile.dateJoined}</span></button>
+           <span className="ms-2">{profile.dateJoined}</span>
          </span>
         </div>
-        <div className="row mt-2">
+        <div className="row mt-3">
           <span>
             <span className="fw-bold">{profile.followingCount}</span> Following
             <span className="fw-bold ms-4">{profile.followersCount}</span> Followers</span>

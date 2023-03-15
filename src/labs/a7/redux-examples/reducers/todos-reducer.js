@@ -29,6 +29,7 @@ const todosSlice = createSlice({
       state.splice(index, 1)
     },
     todoDoneToggle(state, action) {
+      console.log(state);
       const todo = state.find((todo) =>
           todo._id === action.payload._id)
       todo.done = !todo.done
