@@ -52,25 +52,30 @@ const ProfileDetails = (
           <p>{profile.bio}</p>
         </div>
         <div className="row">
-          <span className="col-4 wd-gray-text">
-         <FontAwesomeIcon icon={faLocationDot}/>
-         <span className="ms-2">{profile.location}</span>
+          <span>
+         <span className="me-4">
+           <FontAwesomeIcon className="me-2" icon={faLocationDot}/>
+          {profile.location}
          </span>
-              <span className="col-4 wd-gray-text">
-         <FontAwesomeIcon icon={faCakeCandles}/>
-           <span> Born</span>
-         <span className="ms-2">{profile.dateOfBirth}</span>
-         </span>
-              <span className="col-4 wd-gray-text">
-           <FontAwesomeIcon icon={faCalendar}/>
-           <span> Joined</span>
-           <span className="ms-2">{profile.dateJoined}</span>
-         </span>
+          <span className="me-4">
+            <FontAwesomeIcon className="me-2" icon={faCakeCandles}/>
+            <span> Born </span>
+            {profile.dateOfBirth}
+          </span>
+            <span>
+              <FontAwesomeIcon className="me-2" icon={faCalendar}/>
+              <span> Joined </span>
+              {profile.dateJoined}
+            </span>
+            </span>
         </div>
         <div className="row mt-3">
           <span>
-            <span className="fw-bold">{profile.followingCount}</span> Following
-            <span className="fw-bold ms-4">{profile.followersCount}</span> Followers</span>
+            <span className="fw-bold me-2">{profile.followingCount}</span>
+            <span className="wd-gray-text">Following</span>
+            <span className="fw-bold ms-4 me-2">{profile.followersCount}</span>
+            <span className="wd-gray-text">Followers</span>
+          </span>
         </div>
       </>
   );
