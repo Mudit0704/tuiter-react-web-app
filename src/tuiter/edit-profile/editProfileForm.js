@@ -75,7 +75,7 @@ const EditProfileForm = (
       <>
         <div className="row">
           <div className="col-1">
-            <a className="btn bg-transparent border-0 ms-2" href="./profile"><FontAwesomeIcon icon={faX}/></a>
+            <Link className="btn bg-transparent border-0 ms-2" to="/tuiter/profile"><FontAwesomeIcon icon={faX}/></Link>
           </div>
           <div className="col-9 ps-0">
             <h3>Edit Profile</h3>
