@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {faComment, faHeart} from "@fortawesome/free-regular-svg-icons";
 import {useDispatch} from "react-redux";
-import {increaseLikeCount} from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = ({
   post = {
@@ -19,7 +19,11 @@ const TuitStats = ({
 }) => {
   const dispatch = useDispatch();
   const likeHandler = (todo) => {
-    dispatch(increaseLikeCount(todo))
+    dispatch(updateTuitThunk({
+      ...todo,
+      likes: todo.liked ? todo.likes - 1 : todo.likes + 1,
+      liked: !todo.liked
+    }))
   }
   return (
       <>
