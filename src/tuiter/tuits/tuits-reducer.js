@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import tuits from './tuits.json';
 import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk} from "../../services/tuits-thunks";
 
-const currentUser = {
+export const currentUser = {
   "userName": "NASA",
   "handle": "@nasa",
   "avatarIcon": "nasa.png",
@@ -88,5 +88,5 @@ const tuitsSlice = createSlice({
   }
 });
 
-export const {increaseLikeCount, createTuit, deleteTuit} = tuitsSlice.actions
+export const {increaseLikeCount, createTuit, deleteTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

@@ -10,7 +10,7 @@ const TuitItem = ({
     "userName": "SpaceX",
     "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
     "time": "2h",
-    "image": "tesla.png",
+    "avatarIcon": "tesla.png",
     "liked": true,
     "replies": 123,
     "retuits": 432,
@@ -29,7 +29,7 @@ const TuitItem = ({
         <li className="list-group-item border-0 bg-transparent p-0 mt-2">
           <div className="row align-top">
             <div className="col-1">
-              <img src= {`/images/${post.image}`} className="rounded-5 wd-avatar-icon" alt="..."/>
+              <img src= {`/images/${post.avatarIcon}`} className="rounded-5 wd-avatar-icon" alt="..."/>
             </div>
             <div className="col-8">
           <span className="fw-bold">{post.userName}
